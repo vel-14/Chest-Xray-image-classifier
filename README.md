@@ -12,7 +12,7 @@ The dataset is structured into three directories: train, test, and val, each con
 
 The CNN architecture used in this model consists of multiple convolutional layers, each followed by ReLU activation, batch normalization, and max pooling layers. The feature maps are then flattened, and fully connected layers with dropout are used to make the final classification.
 
-## CNN Architecture:
+### CNN Architecture:
 Input: 3x256x256 (RGB image)
 Layer 1: Convolutional Layer (16 filters, 3x3 kernel, stride 2, padding 1) -> ReLU -> BatchNorm -> MaxPooling (2x2, stride 2)
 
