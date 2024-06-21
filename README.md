@@ -23,5 +23,17 @@ Layer 3: Convolutional Layer (64 filters, 3x3 kernel, stride 2, padding 1) -> Re
 Layer 4: Convolutional Layer (128 filters, 3x3 kernel, stride 2, padding 1) -> ReLU -> BatchNorm -> Flatten
 
 Fully Connected Layer 1: Linear (128 * 2 * 2 -> 64) -> ReLU -> Dropout (0.3)
+
 Fully Connected Layer 2: Linear (64 -> 2)
+
+## Model Training
+
+The training loop runs for a specified number of epochs, during which it optimizes the model using the Adam optimizer and cross-entropy loss. The training progress is printed every 100 mini-batches.
+
+## Model Evaluation
+
+After training, the model is evaluated on the test set, and the accuracy is calculated and printed.
+
+
+
 
