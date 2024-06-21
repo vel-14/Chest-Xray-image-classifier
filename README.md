@@ -15,9 +15,13 @@ The CNN architecture used in this model consists of multiple convolutional layer
 ## CNN Architecture:
 Input: 3x256x256 (RGB image)
 Layer 1: Convolutional Layer (16 filters, 3x3 kernel, stride 2, padding 1) -> ReLU -> BatchNorm -> MaxPooling (2x2, stride 2)
+
 Layer 2: Convolutional Layer (32 filters, 3x3 kernel, stride 2, padding 1) -> ReLU -> BatchNorm -> MaxPooling (2x2, stride 2)
+
 Layer 3: Convolutional Layer (64 filters, 3x3 kernel, stride 2, padding 1) -> ReLU -> BatchNorm -> MaxPooling (2x2, stride 2)
+
 Layer 4: Convolutional Layer (128 filters, 3x3 kernel, stride 2, padding 1) -> ReLU -> BatchNorm -> Flatten
+
 Fully Connected Layer 1: Linear (128 * 2 * 2 -> 64) -> ReLU -> Dropout (0.3)
 Fully Connected Layer 2: Linear (64 -> 2)
 
