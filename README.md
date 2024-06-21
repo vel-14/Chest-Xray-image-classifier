@@ -28,7 +28,7 @@ Fully Connected Layer 2: Linear (64 -> 2)
 
 ## Model Training
 
-The training loop runs for a specified number of epochs, during which it optimizes the model using the Adam optimizer and cross-entropy loss. The training progress is printed every 100 mini-batches.
+The training loop runs for a specified number of epochs, during which it optimizes the model using the Adam optimizer and cross-entropy loss. The training progress is printed every 300 mini-batches.
 
 ## Model Evaluation
 
